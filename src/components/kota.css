@@ -1,0 +1,159 @@
+.kota-kota {
+  gap: 20px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.kota-image1 {
+  width: 520px;
+  height: 280px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.kota-image {
+  width: auto;
+  align-self: stretch;
+  object-fit: cover;
+}
+.kota-btn1 {
+  left: 115px;
+  bottom: 25px;
+  position: absolute;
+  border-width: 0px;
+  border-radius: 100px;
+}
+.kota-text {
+  color: #343434;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: auto;
+  margin-right: 6px;
+}
+.kota-image1 {
+  width: 25px;
+  margin-top: 2px;
+  object-fit: cover;
+}
+.kota-image2 {
+  width: 520px;
+  height: 280px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.kota-image2 {
+  width: auto;
+  align-self: stretch;
+  object-fit: cover;
+}
+.kota-btn2 {
+  left: 115px;
+  width: auto;
+  bottom: 25px;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  padding-top: 4px;
+  border-width: 0px;
+  padding-left: 20px;
+  border-radius: 100px;
+  padding-right: 15px;
+  flex-direction: row;
+  padding-bottom: 7px;
+  background-color: #F7F6F6;
+}
+.kota-btn2:focus {
+  transform: scale(0.96);
+}
+.kota-btn2:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+  background-color: var(--dl-color-gray-900);
+}
+.kota-text1 {
+  color: #343434;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: auto;
+  margin-right: 6px;
+}
+.kota-image3 {
+  width: 25px;
+  margin-top: 2px;
+  object-fit: cover;
+}
+.kota-image3 {
+  width: 520px;
+  height: 280px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.kota-image4 {
+  width: auto;
+  align-self: stretch;
+  object-fit: cover;
+}
+.kota-btn3 {
+  left: 115px;
+  width: auto;
+  bottom: 25px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  padding-top: 4px;
+  border-width: 0px;
+  padding-left: 20px;
+  border-radius: 100px;
+  padding-right: 15px;
+  flex-direction: row;
+  padding-bottom: 7px;
+  background-color: #F7F6F6;
+}
+.kota-btn3:focus {
+  transform: scale(0.96);
+}
+.kota-btn3:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+  background-color: var(--dl-color-gray-900);
+}
+.kota-text2 {
+  color: #343434;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: auto;
+  margin-right: 6px;
+}
+.kota-image5 {
+  width: 25px;
+  margin-top: 2px;
+  object-fit: cover;
+}
+@media(max-width: 1440px) {
+  .kota-text {
+    font-size: 26px;
+  }
+  .kota-text1 {
+    font-size: 26px;
+  }
+  .kota-text2 {
+    font-size: 26px;
+  }
+}

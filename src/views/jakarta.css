@@ -1,0 +1,97 @@
+.jakarta-container {
+  width: 100%;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #F1EEEE;
+}
+.jakarta-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.jakarta-text {
+  font-size: 64px;
+  margin-top: 121px;
+  margin-bottom: 49px;
+}
+.jakarta-button {
+  color: rgb(247, 246, 246);
+  display: flex;
+  font-size: 40px;
+  align-self: center;
+  transition: 0.3s;
+  padding-top: 33px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 0px;
+  padding-left: 113px;
+  border-radius: 100px;
+  margin-bottom: 195px;
+  padding-right: 113px;
+  padding-bottom: 33px;
+  background-color: var(--dl-color-danger-500);
+}
+.jakarta-button:hover {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-danger-300);
+}
+@media(max-width: 1024px) {
+  .jakarta-text {
+    font-size: 45px;
+  }
+  .jakarta-button {
+    font-size: 25px;
+  }
+}
+@media(max-width: 768px) {
+  .jakarta-container {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .jakarta-text {
+    font-size: 35px;
+    margin-top: var(--dl-space-space-fourunits);
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .jakarta-button {
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-fourunits);
+    margin-bottom: var(--dl-space-space-fiveunits);
+    padding-right: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 425px) {
+  .jakarta-container {
+    justify-content: flex-start;
+  }
+  .jakarta-text {
+    font-size: 25px;
+    margin-top: var(--dl-space-space-sixunits);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .jakarta-button {
+    font-size: 14px;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-sixunits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 375px) {
+  .jakarta-container {
+    align-items: center;
+  }
+}
