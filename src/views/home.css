@@ -96,113 +96,70 @@
   font-weight: 900;
   padding-left: 10%;
 }
-.home-visi-misi {
+.home-visi-misi-application {
+  gap: var(--dl-space-space-fiveunits);
   flex: 0 0 auto;
   width: 100%;
-  height: 856px;
+  height: auto;
   display: flex;
   align-items: center;
+  padding-top: 200px;
+  padding-left: 450px;
+  padding-right: 450px;
   flex-direction: column;
+  padding-bottom: 200px;
   justify-content: flex-start;
   background-color: #DFDFDF;
 }
-.home-visi {
+.home-visi-dan-misi {
+  gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
   width: 100%;
-  height: 50%;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
-}
-.home-header-visi {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .home-text07 {
-  font-size: 128px;
+  font-size: 96px;
   align-self: flex-start;
   font-style: normal;
-  margin-top: 100px;
-  font-weight: 800;
-  margin-left: 10%;
-}
-.home-container1 {
-  flex: 0 0 auto;
-  width: 1452px;
-  height: 8px;
-  display: flex;
-  align-self: center;
-  margin-top: 100px;
-  align-items: flex-start;
-  margin-left: 30px;
-  justify-content: flex-start;
-  background-color: rgba(0, 0, 0, 0.4);
+  font-weight: 900;
 }
 .home-text08 {
-  color: rgba(0, 0, 0, 0.6);
-  width: 750px;
+  color: #343434;
+  width: auto;
   height: auto;
-  font-size: 1.5rem;
-  align-self: flex-start;
+  font-size: 20px;
+  align-self: center;
   font-style: normal;
   margin-top: 0%;
   text-align: justify;
   font-family: Lato;
-  font-weight: 400;
-  margin-left: 10%;
+  font-weight: 700;
+  margin-left: 0%;
 }
-.home-misi {
+.home-application {
+  gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
   width: 100%;
-  height: 50%;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.home-header-misi {
-  flex: 0 0 auto;
-  width: 50%;
-  height: 50%;
-  display: flex;
-  align-self: flex-start;
-  align-items: center;
-  justify-content: flex-end;
-}
-.home-container2 {
-  flex: 0 0 auto;
-  width: 658px;
-  height: 8px;
+  height: auto;
   display: flex;
   align-items: flex-start;
-  margin-right: 30px;
-  background-color: rgba(0, 0, 0, 0.4);
+  flex-direction: column;
 }
-.home-text09 {
-  font-size: 128px;
+.home-text15 {
+  font-size: 96px;
+  align-self: flex-start;
   font-style: normal;
   font-weight: 900;
 }
-.home-text10 {
-  color: rgba(0, 0, 0, 0.6);
-  width: 50%;
-  font-size: 1.5rem;
-  align-self: flex-start;
+.home-text16 {
+  color: #343434;
+  font-size: 20px;
   font-style: normal;
-  margin-top: var(--dl-space-space-threeunits);
-  text-align: justify;
-  font-weight: 400;
-  line-height: auto;
-  margin-left: var(--dl-space-space-oneandhalfunits);
-  margin-right: 9%;
+  font-weight: 700;
 }
 .home-rally-doa-small {
   flex: 0 0 auto;
@@ -214,7 +171,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text15 {
+.home-text20 {
   font-size: 6rem;
   align-self: center;
   margin-top: 112px;
@@ -274,7 +231,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text16 {
+.home-text21 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -333,7 +290,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text19 {
+.home-text24 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -395,7 +352,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text22 {
+.home-text27 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -453,7 +410,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text25 {
+.home-text30 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -521,7 +478,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text28 {
+.home-text33 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -578,7 +535,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text31 {
+.home-text36 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -650,7 +607,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text34 {
+.home-text39 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -708,7 +665,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text35 {
+.home-text40 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -760,7 +717,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text36 {
+.home-text41 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -823,7 +780,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text39 {
+.home-text44 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -881,7 +838,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text42 {
+.home-text47 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -933,7 +890,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text45 {
+.home-text50 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1004,7 +961,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text46 {
+.home-text51 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1059,7 +1016,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text47 {
+.home-text52 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1083,7 +1040,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text48 {
+.home-text53 {
   font-size: 6rem;
   align-self: center;
   margin-top: 112px;
@@ -1143,7 +1100,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text49 {
+.home-text54 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1202,7 +1159,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text52 {
+.home-text57 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1255,7 +1212,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text55 {
+.home-text60 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1323,7 +1280,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text58 {
+.home-text63 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1381,7 +1338,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text61 {
+.home-text66 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1438,7 +1395,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text64 {
+.home-text69 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1511,7 +1468,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text67 {
+.home-text72 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1569,7 +1526,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text68 {
+.home-text73 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1621,7 +1578,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text69 {
+.home-text74 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1694,7 +1651,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text72 {
+.home-text77 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1752,7 +1709,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text75 {
+.home-text80 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1804,7 +1761,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text78 {
+.home-text83 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1875,7 +1832,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text79 {
+.home-text84 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1930,7 +1887,7 @@
   transform: scale(1.15);
   background-color: var(--dl-color-gray-900);
 }
-.home-text80 {
+.home-text85 {
   color: rgb(52, 52, 52);
   font-size: 1.5rem;
   font-style: normal;
@@ -1974,50 +1931,18 @@
     font-size: 1.2rem;
     padding-left: 0%;
   }
-  .home-visi-misi {
+  .home-visi-misi-application {
     height: auto;
-  }
-  .home-text07 {
-    font-size: 5.5rem;
-    margin-top: var(--dl-space-space-threeunits);
-  }
-  .home-container1 {
-    width: 1096px;
   }
   .home-text08 {
     width: 40%;
     font-size: 1.2rem;
   }
-  .home-misi {
-    flex-direction: row;
-  }
-  .home-header-misi {
-    width: 50%;
-    align-self: flex-start;
-    justify-content: flex-end;
-  }
-  .home-container2 {
-    width: 70%;
-  }
-  .home-text09 {
-    font-size: 5.5rem;
-    align-self: center;
-  }
-  .home-text10 {
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 1.2rem;
-    font-style: normal;
-    margin-top: var(--dl-space-space-twounits);
-    font-weight: 400;
-    margin-left: var(--dl-space-space-oneandhalfunits);
-    margin-right: 10%;
-    margin-bottom: var(--dl-space-space-fiveunits);
-  }
   .home-rally-doa-small {
     padding-left: 0px;
     padding-right: 0px;
   }
-  .home-text15 {
+  .home-text20 {
     font-size: 5rem;
     margin-top: var(--dl-space-space-sixunits);
     margin-bottom: var(--dl-space-space-threeunits);
@@ -2050,7 +1975,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text16 {
+  .home-text21 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2081,7 +2006,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text19 {
+  .home-text24 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2113,7 +2038,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text22 {
+  .home-text27 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2134,7 +2059,7 @@
     margin: auto;
     padding-bottom: 4px;
   }
-  .home-text25 {
+  .home-text30 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2165,7 +2090,7 @@
     margin: auto;
     padding-bottom: 4px;
   }
-  .home-text28 {
+  .home-text33 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2190,7 +2115,7 @@
     margin: auto;
     padding-bottom: 4px;
   }
-  .home-text31 {
+  .home-text36 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2226,7 +2151,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text34 {
+  .home-text39 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2252,7 +2177,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text35 {
+  .home-text40 {
     font-size: 1.5rem;
   }
   .home-image17 {
@@ -2270,7 +2195,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text36 {
+  .home-text41 {
     font-size: 1.5rem;
   }
   .home-image18 {
@@ -2296,7 +2221,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text39 {
+  .home-text44 {
     color: rgb(52, 52, 52);
     font-size: 26px;
     font-style: normal;
@@ -2321,7 +2246,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text42 {
+  .home-text47 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2342,7 +2267,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text45 {
+  .home-text50 {
     font-size: 26px;
   }
   .home-image24 {
@@ -2375,7 +2300,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text46 {
+  .home-text51 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2401,7 +2326,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text47 {
+  .home-text52 {
     font-size: 1.5rem;
   }
   .home-image29 {
@@ -2411,7 +2336,7 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .home-text48 {
+  .home-text53 {
     font-size: 5rem;
     margin-top: var(--dl-space-space-sixunits);
     margin-bottom: var(--dl-space-space-threeunits);
@@ -2444,7 +2369,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text49 {
+  .home-text54 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2475,7 +2400,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text52 {
+  .home-text57 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2502,7 +2427,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text55 {
+  .home-text60 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2528,7 +2453,7 @@
     margin: auto;
     padding-bottom: 4px;
   }
-  .home-text58 {
+  .home-text63 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2554,7 +2479,7 @@
     margin: auto;
     padding-bottom: 4px;
   }
-  .home-text61 {
+  .home-text66 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2579,7 +2504,7 @@
     margin: auto;
     padding-bottom: 4px;
   }
-  .home-text64 {
+  .home-text69 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2615,7 +2540,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text67 {
+  .home-text72 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2641,7 +2566,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text68 {
+  .home-text73 {
     font-size: 1.5rem;
   }
   .home-image45 {
@@ -2659,7 +2584,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text69 {
+  .home-text74 {
     font-size: 1.5rem;
   }
   .home-image46 {
@@ -2690,7 +2615,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text72 {
+  .home-text77 {
     color: rgb(52, 52, 52);
     font-size: 26px;
     font-style: normal;
@@ -2715,7 +2640,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text75 {
+  .home-text80 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2736,7 +2661,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text78 {
+  .home-text83 {
     font-size: 26px;
   }
   .home-image52 {
@@ -2769,7 +2694,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text79 {
+  .home-text84 {
     color: rgb(52, 52, 52);
     font-size: 1.5rem;
     font-style: normal;
@@ -2795,7 +2720,7 @@
     margin: auto;
     padding: 5px;
   }
-  .home-text80 {
+  .home-text85 {
     font-size: 1.5rem;
   }
   .home-image57 {
@@ -2833,21 +2758,11 @@
     font-weight: 900;
     padding-left: 0%;
   }
-  .home-text07 {
-    font-size: 5rem;
-    margin-top: var(--dl-space-space-fiveunits);
-  }
   .home-text08 {
     width: 40%;
     font-size: 1rem;
   }
-  .home-text09 {
-    font-size: 5rem;
-  }
-  .home-text10 {
-    font-size: 1rem;
-  }
-  .home-text15 {
+  .home-text20 {
     font-size: 4rem;
     margin-top: var(--dl-space-space-fourunits);
     margin-bottom: var(--dl-space-space-twounits);
@@ -2860,7 +2775,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text16 {
+  .home-text21 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -2878,7 +2793,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text19 {
+  .home-text24 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -2896,7 +2811,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text22 {
+  .home-text27 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -2915,7 +2830,7 @@
     height: 30px;
     padding: 4px;
   }
-  .home-text25 {
+  .home-text30 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -2934,7 +2849,7 @@
     height: 30px;
     padding:  4px;
   }
-  .home-text28 {
+  .home-text33 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -2953,7 +2868,7 @@
     height: 30px;
     padding: 4px;
   }
-  .home-text31 {
+  .home-text36 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -2971,7 +2886,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text34 {
+  .home-text39 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
   }
@@ -2987,7 +2902,7 @@
     height: 30px;
     padding: 4px;
   }
-  .home-text35 {
+  .home-text40 {
     color: rgb(52, 52, 52);
   }
   .home-image17 {
@@ -3001,7 +2916,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text36 {
+  .home-text41 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3019,7 +2934,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text39 {
+  .home-text44 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3037,7 +2952,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text42 {
+  .home-text47 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3055,7 +2970,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text45 {
+  .home-text50 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3075,7 +2990,7 @@
     width: var(--dl-size-size-xlarge);
     height: 30px;
   }
-  .home-text46 {
+  .home-text51 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3092,7 +3007,7 @@
     width: var(--dl-size-size-xlarge);
     height: 30px;
   }
-  .home-text47 {
+  .home-text52 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3102,7 +3017,7 @@
   .home-image29 {
     width: 18px;
   }
-  .home-text48 {
+  .home-text53 {
     font-size: 4rem;
     margin-top: var(--dl-space-space-fourunits);
     margin-bottom: var(--dl-space-space-twounits);
@@ -3115,7 +3030,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text49 {
+  .home-text54 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3133,7 +3048,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text52 {
+  .home-text57 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3151,7 +3066,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text55 {
+  .home-text60 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3170,7 +3085,7 @@
     height: 30px;
     padding: 4px;
   }
-  .home-text58 {
+  .home-text63 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3189,7 +3104,7 @@
     height: 30px;
     padding:  4px;
   }
-  .home-text61 {
+  .home-text66 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3208,7 +3123,7 @@
     height: 30px;
     padding: 4px;
   }
-  .home-text64 {
+  .home-text69 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3226,7 +3141,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text67 {
+  .home-text72 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
   }
@@ -3242,7 +3157,7 @@
     height: 30px;
     padding: 4px;
   }
-  .home-text68 {
+  .home-text73 {
     color: rgb(52, 52, 52);
   }
   .home-image45 {
@@ -3256,7 +3171,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text69 {
+  .home-text74 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3274,7 +3189,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text72 {
+  .home-text77 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3292,7 +3207,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text75 {
+  .home-text80 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3310,7 +3225,7 @@
     bottom: 15px;
     height: 30px;
   }
-  .home-text78 {
+  .home-text83 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3330,7 +3245,7 @@
     width: var(--dl-size-size-xlarge);
     height: 30px;
   }
-  .home-text79 {
+  .home-text84 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3347,7 +3262,7 @@
     width: var(--dl-size-size-xlarge);
     height: 30px;
   }
-  .home-text80 {
+  .home-text85 {
     color: rgb(52, 52, 52);
     font-size: 1rem;
     font-style: normal;
@@ -3381,14 +3296,7 @@
   .home-text06 {
     padding-left: 0%;
   }
-  .home-text07 {
-    margin-top: var(--dl-space-space-threeunits);
-  }
-  .home-text10 {
-    margin-right: var(--dl-space-space-twounits);
-    margin-bottom: var(--dl-space-space-threeunits);
-  }
-  .home-text15 {
+  .home-text20 {
     font-size: 3.5rem;
   }
   .home-bali {
@@ -3403,7 +3311,7 @@
     padding-right: 0px;
     padding-bottom: 0px;
   }
-  .home-text16 {
+  .home-text21 {
     font-size: 12px;
     margin-right: 3px;
   }
@@ -3419,7 +3327,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text19 {
+  .home-text24 {
     font-size: 12px;
     margin-right: 3px;
   }
@@ -3435,7 +3343,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text22 {
+  .home-text27 {
     font-size: 12px;
     margin-right: 5px;
   }
@@ -3451,7 +3359,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text25 {
+  .home-text30 {
     font-size: 12px;
     font-style: normal;
     font-family: Lato;
@@ -3470,7 +3378,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text28 {
+  .home-text33 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3490,7 +3398,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text31 {
+  .home-text36 {
     font-size: 12px;
     font-style: normal;
     font-family: Lato;
@@ -3509,7 +3417,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text34 {
+  .home-text39 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3529,7 +3437,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text35 {
+  .home-text40 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3549,7 +3457,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text36 {
+  .home-text41 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3569,7 +3477,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text39 {
+  .home-text44 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3589,7 +3497,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text42 {
+  .home-text47 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3609,7 +3517,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text45 {
+  .home-text50 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3632,7 +3540,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text46 {
+  .home-text51 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3652,7 +3560,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text47 {
+  .home-text52 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3663,7 +3571,7 @@
   .home-image29 {
     width: 14px;
   }
-  .home-text48 {
+  .home-text53 {
     font-size: 3.5rem;
   }
   .home-bali1 {
@@ -3678,7 +3586,7 @@
     padding-right: 0px;
     padding-bottom: 0px;
   }
-  .home-text49 {
+  .home-text54 {
     font-size: 12px;
     margin-right: 3px;
   }
@@ -3694,7 +3602,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text52 {
+  .home-text57 {
     font-size: 12px;
     margin-right: 3px;
   }
@@ -3710,7 +3618,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text55 {
+  .home-text60 {
     font-size: 12px;
     margin-right: 5px;
   }
@@ -3726,7 +3634,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text58 {
+  .home-text63 {
     font-size: 12px;
     font-style: normal;
     font-family: Lato;
@@ -3745,7 +3653,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text61 {
+  .home-text66 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3765,7 +3673,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text64 {
+  .home-text69 {
     font-size: 12px;
     font-style: normal;
     font-family: Lato;
@@ -3784,7 +3692,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text67 {
+  .home-text72 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3804,7 +3712,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text68 {
+  .home-text73 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3824,7 +3732,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text69 {
+  .home-text74 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3844,7 +3752,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text72 {
+  .home-text77 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3864,7 +3772,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text75 {
+  .home-text80 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3884,7 +3792,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text78 {
+  .home-text83 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3907,7 +3815,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text79 {
+  .home-text84 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3927,7 +3835,7 @@
     height: 20px;
     padding: 0px;
   }
-  .home-text80 {
+  .home-text85 {
     color: rgb(52, 52, 52);
     font-size: 12px;
     font-style: normal;
@@ -3973,66 +3881,16 @@
   .home-text06 {
     font-size: 0.8rem;
   }
-  .home-header-visi {
-    width: 65%;
-    align-self: flex-end;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .home-text07 {
-    font-size: 3rem;
-    align-self: center;
-    margin-top: var(--dl-space-space-unit);
-    margin-left: 0%;
-  }
-  .home-container1 {
-    width: 100%;
-    height: 5px;
-    align-self: center;
-    margin-top: var(--dl-space-space-unit);
-    align-items: center;
-    margin-left: var(--dl-space-space-halfunit);
-    justify-content: center;
-  }
   .home-text08 {
     width: auto;
     margin: var(--dl-space-space-unit);
     font-size: 1rem;
   }
-  .home-misi {
-    flex-direction: column;
-  }
-  .home-header-misi {
-    width: 60%;
-    height: auto;
-    position: relative;
-    align-self: flex-start;
-  }
-  .home-container2 {
-    width: 60%;
-    height: 5px;
-    align-self: center;
-    align-items: center;
-    margin-right: var(--dl-space-space-halfunit);
-    justify-content: center;
-  }
-  .home-text09 {
-    font-size: 3rem;
-  }
-  .home-text10 {
-    width: auto;
-    font-size: 1rem;
-    align-self: center;
-    margin-top: var(--dl-space-space-unit);
-    margin-left: var(--dl-space-space-unit);
-    margin-right: var(--dl-space-space-unit);
-    margin-bottom: var(--dl-space-space-unit);
-  }
   .home-rally-doa-small {
     width: 100%;
     display: flex;
   }
-  .home-text15 {
+  .home-text20 {
     font-size: 2rem;
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-halfunit);
@@ -4051,7 +3909,7 @@
     padding: 0px;
     font-size: 1rem;
   }
-  .home-text16 {
+  .home-text21 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4072,7 +3930,7 @@
     height: 16px;
     padding: 0px;
   }
-  .home-text19 {
+  .home-text24 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4098,7 +3956,7 @@
     padding: 0px;
     font-size: 1rem;
   }
-  .home-text22 {
+  .home-text27 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4122,7 +3980,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text25 {
+  .home-text30 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4149,7 +4007,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text28 {
+  .home-text33 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4171,7 +4029,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text31 {
+  .home-text36 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4198,7 +4056,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text34 {
+  .home-text39 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4221,7 +4079,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text35 {
+  .home-text40 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     align-self: center;
@@ -4247,7 +4105,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text36 {
+  .home-text41 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4270,7 +4128,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text39 {
+  .home-text44 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4293,7 +4151,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text42 {
+  .home-text47 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4317,7 +4175,7 @@
     padding-top: 0px;
     justify-content: center;
   }
-  .home-text45 {
+  .home-text50 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4346,7 +4204,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text46 {
+  .home-text51 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4369,7 +4227,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text47 {
+  .home-text52 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4384,7 +4242,7 @@
     width: 100%;
     display: none;
   }
-  .home-text48 {
+  .home-text53 {
     font-size: 2rem;
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-halfunit);
@@ -4403,7 +4261,7 @@
     padding: 0px;
     font-size: 1rem;
   }
-  .home-text49 {
+  .home-text54 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4424,7 +4282,7 @@
     height: 16px;
     padding: 0px;
   }
-  .home-text52 {
+  .home-text57 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4446,7 +4304,7 @@
     padding: 0px;
     font-size: 1rem;
   }
-  .home-text55 {
+  .home-text60 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4474,7 +4332,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text58 {
+  .home-text63 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4497,7 +4355,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text61 {
+  .home-text66 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4519,7 +4377,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text64 {
+  .home-text69 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4546,7 +4404,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text67 {
+  .home-text72 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4569,7 +4427,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text68 {
+  .home-text73 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     align-self: center;
@@ -4595,7 +4453,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text69 {
+  .home-text74 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4622,7 +4480,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text72 {
+  .home-text77 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4645,7 +4503,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text75 {
+  .home-text80 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4669,7 +4527,7 @@
     padding-top: 0px;
     justify-content: center;
   }
-  .home-text78 {
+  .home-text83 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4698,7 +4556,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text79 {
+  .home-text84 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;
@@ -4721,7 +4579,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text80 {
+  .home-text85 {
     color: rgb(52, 52, 52);
     font-size: 0.5rem;
     font-style: normal;

@@ -35,13 +35,18 @@ const Footer = (props) => {
             src={props.image_src5}
             className="footer-image4"
           />
+          <img
+            alt={props.image_alt6}
+            src={props.image_src6}
+            className="footer-image5"
+          />
         </div>
       </div>
       <div className="footer-footer">
         <img
           alt={props.image_alt}
           src={props.image_src}
-          className="footer-image5"
+          className="footer-image6"
         />
         <span className="footer-text1">{props.text}</span>
       </div>
@@ -51,6 +56,7 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   image_src4: '/Logo Gereja/logo%20gbt%20kao%201-200h.png',
+  image_src6: '/Logo Gereja/logo%20papua-200h.jpeg',
   image_src3: '/Logo Gereja/bethany-2%201-200h.png',
   image_alt1: 'image',
   image_src1: '/Logo Gereja/logo%20gms%20hitam%201-200h.png',
@@ -65,10 +71,12 @@ Footer.defaultProps = {
   image_alt5: 'image',
   image_alt3: 'image',
   heading: 'Supported by',
+  image_alt6: 'image',
 }
 
 Footer.propTypes = {
   image_src4: PropTypes.string,
+  image_src6: PropTypes.string,
   image_src3: PropTypes.string,
   image_alt1: PropTypes.string,
   image_src1: PropTypes.string,
@@ -83,6 +91,7 @@ Footer.propTypes = {
   image_alt5: PropTypes.string,
   image_alt3: PropTypes.string,
   heading: PropTypes.string,
+  image_alt6: PropTypes.string,
 }
 
 export default Footer
